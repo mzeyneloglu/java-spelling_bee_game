@@ -1,0 +1,75 @@
+*{
+    -fx-base: #424242;
+}
+
+
+.balloon{
+    -fx-shape: "M 150 200 Q 150 200 100 300 Q 150 400 150 400 Q 250 400 250 400 C 250 400 300 300 300 300 C 250 200 250 200 250 200 A 50 50 0 1 1 250 200 Z";
+        -fx-background-color: #FFFAFA;
+        -fx-text-fill: black;
+        -fx-border-color: rgb(49, 89, 23);
+        -fx-border-radius: 5;
+        -fx-padding: 3 6 6 6;
+        -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+.balloon1{
+    -fx-shape: "M 150 200 Q 150 200 100 300 Q 150 400 150 400 Q 250 400 250 400 C 250 400 300 300 300 300 C 250 200 250 200 250 200 A 50 50 0 1 1 250 200 Z";
+        -fx-background-color: 	#FFFF00;
+        -fx-border-color: rgb(49, 89, 23);
+        -fx-text-fill: black;
+        -fx-border-radius: 5;
+        -fx-padding: 3 6 6 6;
+        -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+.balloon:hover {
+    -fx-font-weight:bold;
+        -fx-background-color:#FFFF00;
+        -fx-background-radius: 22;
+        -fx-font-size: 24;
+        -fx-text-fill: black;
+        -fx-border-color: black;
+        -fx-border-radius: 20;
+        -fx-border-width: 3;
+}
+.balloon1:hover {
+    -fx-font-weight:bold;
+        -fx-background-color: #dcdcdc;
+        -fx-background-radius: 22;
+        -fx-font-size: 24;
+        -fx-text-fill: black;
+        -fx-border-color: white;
+        -fx-border-radius: 20;
+        -fx-border-width: 3;
+}
+
+.balloon:pressed {
+    -fx-background-color :  #E6E626;
+
+}
+.balloon1:pressed{
+    -fx-background-color :  #E6E626;
+}
+
+
+
+.adf{
+    -fx-background-color: linear-gradient(to right top, #f2e1eb, #ffd9e1, #ffd3cc, #ffd2af, #ffd795, #dfd48c, #bed08a, #9cca8e, #81b591, #739e8d, #6d8682, #6c6e6e);
+    -fx-background-radius : 25;
+
+}
+.adf:hover{
+    -fx-font-weight:bold;
+    -fx-background-color:white;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: #2196f3;
+    -fx-border-color: #2196f3;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+
+
+
+

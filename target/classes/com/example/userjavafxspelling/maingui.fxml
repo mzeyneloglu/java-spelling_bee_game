@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FCE500; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.userjavafxspelling.MainController">
+   <children>
+      <ImageView fitHeight="288.0" fitWidth="574.0" layoutX="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@spellingbeeimg.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonUser" layoutX="313.0" layoutY="301.0" mnemonicParsing="false" onAction="#actionButtonUser" prefHeight="73.0" prefWidth="273.0" styleClass="shiny_r" stylesheets="@button.css" text="Kendi Harflerim" />
+      <Button fx:id="buttonPC" layoutX="14.0" layoutY="301.0" mnemonicParsing="false" onAction="#actionButtonPC" prefHeight="73.0" prefWidth="273.0" styleClass="shiny_r" stylesheets="@button.css" text="Otomatik Harfler" />
+      <Label alignment="CENTER" layoutX="127.0" layoutY="244.0" prefHeight="44.0" prefWidth="346.0" text="Oyun Modunu Seçin" styleClass="modeLabel" stylesheets="@button.css"/>
+   </children>
+</Pane>

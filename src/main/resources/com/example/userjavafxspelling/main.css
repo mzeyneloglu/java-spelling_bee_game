@@ -1,0 +1,63 @@
+.buttonEvent:hover{
+    -fx-font-weight:bold;
+        -fx-background-radius: 22;
+        -fx-font-size: 16;
+        -fx-text-fill: black;
+        -fx-border-color:black;
+        -fx-border-radius: 20;
+        -fx-border-width: 2;
+
+}
+.buttonEvents:hover{
+    -fx-font-weight:bold;
+    -fx-border-color: black;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+    -fx-border-color:black;
+    -fx-border-radius: 20;
+    -fx-border-width: 2;
+
+}
+.buttonEvents{
+    -fx-graphic: url("refreshicon.png");
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-border-radius: 20;
+
+}
+.buttonEvent{
+    -fx-font-weight:bold;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+
+}
+
+.viewList{
+    -fx-background-color: white;
+}
+
+
+.viewList .list-cell:odd {
+    -fx-background-color: #F7F9F9;
+    -fx-background-radius:5;
+}
+
+.viewList .list-cell:even {
+    -fx-background-color: #F1F3F3;
+    -fx-background-radius:5;
+}
+
+.hbox{
+    -fx-background-color: white;
+}
+.tpane > .title{
+    -fx-background-color: #dcdcdc;
+}
+.tpane2 > .title{
+    -fx-background-color: #dcdcdc;
+}

@@ -1,0 +1,38 @@
+.shiny_r {
+    -fx-background-color:#FCE500;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+.shiny_r:hover {
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 10 20 10 20;
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+.shiny_r:pressed{
+    -fx-background-color:#FFF270;
+    -fx-text-fill:linear-gradient(#e68400, #ffd65b),
+    linear-gradient(#f2ba44, #ffef84),
+    linear-gradient(#efaa22, #ffea6a),
+    linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
+.modeLabel{
+    -fx-background-insets: 0,1,2,3,0;
+        -fx-text-fill: #654b00;
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-padding: 10 20 10 20;
+}
