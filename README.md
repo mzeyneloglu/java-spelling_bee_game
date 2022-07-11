@@ -42,7 +42,7 @@ A button (button) that allows other letters to be moved apart from the central l
 there is a 'login' button where he can check the words he finds and likewise
 There is a 'delete' button where he can delete the letters he writes. The words he finds are JavaFX
 It will be displayed with the ListView controller in it, and the score will be displayed in the same way as the Label
-will be displayed on
+will be displayed on.
 
 
 ### Software Design / Yazılım Tasarımı
