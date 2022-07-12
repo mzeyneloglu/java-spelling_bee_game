@@ -6,7 +6,7 @@ Oyunumuzda 7 adet petek görünümlü butonlar bulunmaktadır.Butonların üstü
 ve ayrıca bir butonumuz merkez harf içermektedir.Kullanıcı verilen harflere göre en az 4 
 harf şartı ve merkez harfi içermek koşulu ile kelime üretmeyi amaçlayacaktır.Doğru 
 bulduğu kelimeler ile puan kazanması amaçlanmıştır.Bulduğu kelime bir pangram kelime 
-ise 7 puan kazanacaktır.Bulduğu kelime pangram kelime dışında bir kelime ise kelime 
+ise 7 puan kazanacaktır.Bulduğu kelime pangram kelime dışında bir kelime ise kelime harf
 sayısı – 3 puan kazanacaktır.Bunların dışında bulduğu kelime sayılarını görebileceği bir 
 bilgi kısmı oluşturulmuştur.
 Oyunumuzda kullacının iki türlü seçebileceği mod bulunmaktadır.Bu modlar kullanıcının 
@@ -28,7 +28,7 @@ and also one of our buttons contains a central letter. The user has at least 4 l
 It will aim to produce words, provided that it contains the letter condition and the central letter.
 It is aimed to earn points with the words it finds. The word it finds is a pangram word.
 If the word he finds is a word other than the pangram word, he will get 7 points.
-number of words – will earn 3 points.
+number of letters – will earn 3 points.
 information section.
 In our game, there are two modes that the user can choose. These modes are
 buttons can be assigned their own letters and letters can be assigned by the computer
